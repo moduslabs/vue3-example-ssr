@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "ssr": "cross-env SSR=true vue-cli-service build",
+    "pressr": "cross-env SSR=true vue-cli-service build",
+    "ssr": "node src/server.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

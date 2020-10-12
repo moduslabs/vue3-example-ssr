@@ -26,11 +26,13 @@ Test in:
 npm install
 ```
 
-### Create a server-side-rendered build
+### Create and test a server-side-rendered build
 
 ```
 npm run ssr
 ```
+
+\*Note: The `pressr` script will create a SSR build before running `src/server.js`.
 
 ### Compiles and hot-reloads for development
 
