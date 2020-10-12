@@ -1,50 +1,58 @@
-# Project Name
+# Vue 3 Server Side Rendering Example
 
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](./LICENSE)
 [![Powered by Modus_Create](https://img.shields.io/badge/powered_by-Modus_Create-blue.svg?longCache=true&style=flat&logo=data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzIwIDMwMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNOTguODI0IDE0OS40OThjMCAxMi41Ny0yLjM1NiAyNC41ODItNi42MzcgMzUuNjM3LTQ5LjEtMjQuODEtODIuNzc1LTc1LjY5Mi04Mi43NzUtMTM0LjQ2IDAtMTcuNzgyIDMuMDkxLTM0LjgzOCA4Ljc0OS01MC42NzVhMTQ5LjUzNSAxNDkuNTM1IDAgMCAxIDQxLjEyNCAxMS4wNDYgMTA3Ljg3NyAxMDcuODc3IDAgMCAwLTcuNTIgMzkuNjI4YzAgMzYuODQyIDE4LjQyMyA2OS4zNiA0Ni41NDQgODguOTAzLjMyNiAzLjI2NS41MTUgNi41Ny41MTUgOS45MjF6TTY3LjgyIDE1LjAxOGM0OS4xIDI0LjgxMSA4Mi43NjggNzUuNzExIDgyLjc2OCAxMzQuNDggMCA4My4xNjgtNjcuNDIgMTUwLjU4OC0xNTAuNTg4IDE1MC41ODh2LTQyLjM1M2M1OS43NzggMCAxMDguMjM1LTQ4LjQ1OSAxMDguMjM1LTEwOC4yMzUgMC0zNi44NS0xOC40My02OS4zOC00Ni41NjItODguOTI3YTk5Ljk0OSA5OS45NDkgMCAwIDEtLjQ5Ny05Ljg5NyA5OC41MTIgOTguNTEyIDAgMCAxIDYuNjQ0LTM1LjY1NnptMTU1LjI5MiAxODIuNzE4YzE3LjczNyAzNS41NTggNTQuNDUgNTkuOTk3IDk2Ljg4OCA1OS45OTd2NDIuMzUzYy02MS45NTUgMC0xMTUuMTYyLTM3LjQyLTEzOC4yOC05MC44ODZhMTU4LjgxMSAxNTguODExIDAgMCAwIDQxLjM5Mi0xMS40NjR6bS0xMC4yNi02My41ODlhOTguMjMyIDk4LjIzMiAwIDAgMS00My40MjggMTQuODg5QzE2OS42NTQgNzIuMjI0IDIyNy4zOSA4Ljk1IDMwMS44NDUuMDAzYzQuNzAxIDEzLjE1MiA3LjU5MyAyNy4xNiA4LjQ1IDQxLjcxNC01MC4xMzMgNC40Ni05MC40MzMgNDMuMDgtOTcuNDQzIDkyLjQzem01NC4yNzgtNjguMTA1YzEyLjc5NC04LjEyNyAyNy41NjctMTMuNDA3IDQzLjQ1Mi0xNC45MTEtLjI0NyA4Mi45NTctNjcuNTY3IDE1MC4xMzItMTUwLjU4MiAxNTAuMTMyLTIuODQ2IDAtNS42NzMtLjA4OC04LjQ4LS4yNDNhMTU5LjM3OCAxNTkuMzc4IDAgMCAwIDguMTk4LTQyLjExOGMuMDk0IDAgLjE4Ny4wMDguMjgyLjAwOCA1NC41NTcgMCA5OS42NjUtNDAuMzczIDEwNy4xMy05Mi44Njh6IiBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+)](https://moduscreate.com)
+[![Run on Repl.it](https://repl.it/badge/github/moduslabs/vue3-example-ssr)](https://repl.it/github/moduslabs/vue3-example-ssr)
 
-Project description - one or two paragraphs. The enemy is dark and creates major problems. The solution is now available and the World can rejoice.
+Example project that demonstrates the new Vue 3 Server Side Rendering APIs and Capabilities. Please follow the video turorial for more information.
 
-- [Getting Started](#getting-started)
-- [How it Works](#how-it-works)
-- [Developing](#developing)
-  - [Prerequisites](#prerequisites)
-  - [Testing](#testing)
-  - [Contributing](#contributing)
-- [Modus Create](#modus-create)
-- [Licensing](#licensing)
+Follow us on
+
+<a href="https://youtube.com/moduscreate?sub_confirmation=1"><img src="https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white" /></a>
+
+### Server Side Rendering with Vue.js 3
+
+[![Server Side Rendering with Vue.js 3](https://img.youtube.com/vi/XJfaAkvLXyU/0.jpg)](https://youtu.be/XJfaAkvLXyU)
 
 # Getting Started
 
-{Minimal steps required for a quick software trial.}
+Test in:
 
-```js
-import { Fantastico } from '@modus/awesome-solution';
+- Repl.it: [https://repl.it/@Modus/vue3-example-ssr](https://repl.it/@Modus/vue3-example-ssr)
 
-const amazing = new Fantastico();
+### Project setup
 
-export default amazing;
+```
+npm install
 ```
 
-# How it works
+### Create a server-side-rendered build
 
-{Describe how it works. Include images if possible.}
+```
+npm run ssr
+```
 
-# Developing
+### Compiles and hot-reloads for development
 
-{Show how engineers can set up a development environment and contribute.}
+```
+npm run serve
+```
 
-## Prerequisites
+### Compiles and minifies for production
 
-{Explain the prerequisites}
+```
+npm run build
+```
 
-## Testing
+### Lints and fixes files
 
-{Notes on testing}
+```
+npm run lint
+```
 
-## Contributing
+### Customize configuration
 
-{How can the community contribute}
+See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # Modus Create
 

@@ -1,14 +1,17 @@
-# Node modules
+.DS_Store
 node_modules
+/dist
 
-# .env files
-.env.*
+
+# local env files
+.env.local
+.env.*.local
 
 # Log files
-*.log
-
-# Filesystem descriptors
-.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
 # Editor directories and files
 .idea
@@ -17,11 +20,4 @@ node_modules
 *.ntvs*
 *.njsproj
 *.sln
-*.sw*
-
-# Use either yarn.lock or package-lock.json
-# Uncomment one of them to mainain a single lockfile
-# package-lock.json
-# yarn.lock
-
-## Project-specific files
+*.sw?
