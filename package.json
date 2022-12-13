@@ -12,7 +12,7 @@
   "dependencies": {
     "@vue/server-renderer": "^3.0.0-rc.5",
     "core-js": "^3.6.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "vue": "^3.0.0-0",
     "webpack-manifest-plugin": "^2.2.0",
     "webpack-node-externals": "^2.5.1"
