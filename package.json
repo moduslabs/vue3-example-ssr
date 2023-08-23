@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "pressr": "cross-env SSR=true vue-cli-service build",
+    "pressr-client": "cross-env SSR=true CLIENT=true vue-cli-service build",
+    "pressr-server": "cross-env SSR=true vue-cli-service build",
+    "pressr": "pnpm run pressr-server && pnpm run pressr-client",
     "ssr": "node src/server.js",
     "lint": "vue-cli-service lint"
   },
